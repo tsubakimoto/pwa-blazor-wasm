@@ -1,7 +1,6 @@
 {
   "name": "PwaBlazorWasm",
   "short_name": "PwaBlazorWasm",
-  "id": "./",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
