@@ -70,7 +70,7 @@ jobs:
     - name: Publish artifact
       shell: bash
       run: |
-        dotnet publish src/BlazorApp -c Release -o published
+        dotnet publish src/PwaBlazorWasm -c Release -o published
     - name: Upload artifact for web
       uses: actions/upload-pages-artifact@v1
       with:
